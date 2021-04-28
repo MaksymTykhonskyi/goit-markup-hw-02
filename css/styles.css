@@ -1,0 +1,52 @@
+body{
+color: #FFFFFF;
+}
+.page-header li a:hover,
+.page-header li a:focus{
+color: #2196F3;
+}
+.page-footer li a:hover,
+.page-footer li a:focus{
+color: #2196F3;
+}
+.banner{
+width: 1600px;
+height: 600px;
+left: 52px;
+top: 80px;
+background: #2F303A;
+}
+.banner{
+width: 1600px;
+height: 600px;
+left: 52px;
+top: 80px;
+background: #2F303A;
+}
+.banner-section{
+    width: 696px;
+    height: 120px;
+    left: 504px;
+    top: 280px;
+    
+}
+
+
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+
+background: #F5F4FA;
+
+
+
+
+
+
+
+
+
+
+
+<a href=""class="test-link">тест линк</a>
