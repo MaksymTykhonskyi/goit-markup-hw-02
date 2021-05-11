@@ -23,6 +23,7 @@ body{
     letter-spacing: 0.03em;
 }
 
+
 .logo, .black-logo{
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -65,9 +66,6 @@ color: var(--accent-color);
 .address-link:focus{
     color: var(--accent-color);
 }
-.address-link{
-background: var(--background-color);
-}
 
 .social-links{
 font-weight: 500;
@@ -81,10 +79,13 @@ color: var(--text-color);
 color: var(--accent-color)
 }
 .page-footer{
-    background: var(--background-color);
-    }
-/* END header */
+ background: var(--background-color);
+}
 
+.address{
+font-style: normal;
+}
+    
 .button{
 font-family: inherit;
 font-weight: 500;
@@ -103,13 +104,18 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--title-color);
 }
 
 .text{
-font-size: 16px;
-line-height: 1.9;
-color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+.title-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .paragraph-text{
@@ -125,9 +131,11 @@ text-transform: uppercase;
 color: var(--title-color);
 }
 
-.footer-background{
-font-style: normal;
-background: #2F303A;
+.text-work{
+font-size: 16px;
+line-height: 1.18;
+color: var(--text-color);
+
 }
 
 .visually-hidden {
@@ -150,8 +158,11 @@ font-size: 44px;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--page-color);
+}
 
+.section-background{
+    background: var(--background-color);
 }
 
 .heading{
@@ -161,3 +172,5 @@ line-height: 42px;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
+
